@@ -139,9 +139,9 @@ if __name__ == "__main__":
     # -------------------
     SYMBOL: str = "SP500FT"
     EXCHANGE: str = "VANTAGE"
-    URL_ENVIAR_DATOS: str = ""
-    URL_DISPARAR_GITHUB_ACTIONS: str = ""
-    CICLO_FINAL: int = 63
+    URL_ENVIAR_DATOS: str = "https://script.google.com/macros/s/AKfycbz66LZjqBsdyZGCFRJ6Ove4_FdHJrOAhaWEsmlucAn8r9Jsph-Nmo9PzMlAsK-LG9qAHg/exec"
+    URL_DISPARAR_GITHUB_ACTIONS: str = "https://script.google.com/macros/s/AKfycbz66LZjqBsdyZGCFRJ6Ove4_FdHJrOAhaWEsmlucAn8r9Jsph-Nmo9PzMlAsK-LG9qAHg/exec"
+    CICLO_FINAL: int = 18
     # -------------------
     
     # Ejecutar el programa principal
