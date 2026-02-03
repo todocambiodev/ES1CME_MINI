@@ -1,4 +1,4 @@
-name: Obtener precio GC1!COMEX WS
+name: Obtener precio WS
 
 on:
   workflow_dispatch: # Permite ejecutarlo manualmente para probar
