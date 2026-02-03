@@ -131,8 +131,6 @@ if __name__ == "__main__":
     # Variables iniciales
     # -------------------
     SYMBOLS: list[dict[str, str]] = [
-        {"symbol": "DXY", "exchange": "TVC"}, 
-        {"symbol": "SP500FT", "exchange": "VANTAGE"}, 
         {"symbol": "VIX", "exchange": "TVC"}, 
         {"symbol": "ZT1!", "exchange": "CBOT"}, 
         {"symbol": "ZN1!", "exchange": "CBOT"}, 
@@ -140,7 +138,7 @@ if __name__ == "__main__":
         {"symbol": "US10Y", "exchange": "TVC"}]
     URL_ENVIAR_DATOS: str = "https://script.google.com/macros/s/AKfycbz66LZjqBsdyZGCFRJ6Ove4_FdHJrOAhaWEsmlucAn8r9Jsph-Nmo9PzMlAsK-LG9qAHg/exec"
     URL_DISPARAR_GITHUB_ACTIONS: str = "https://script.google.com/macros/s/AKfycbz66LZjqBsdyZGCFRJ6Ove4_FdHJrOAhaWEsmlucAn8r9Jsph-Nmo9PzMlAsK-LG9qAHg/exec"
-    CICLO_FINAL: int = 18
+    CICLO_FINAL: int = 27
     # -------------------
     
     # Ejecutar el programa principal
